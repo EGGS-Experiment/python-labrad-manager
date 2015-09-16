@@ -1,4 +1,5 @@
-labrad-manager
+Python implementation of LabRAD manager.  It is recommended to use the
+scalabrad package instead, but this may be useful as reference.
 ==============
 
 Python implementation of labrad manager.  This requires an up-to-date
