@@ -29,7 +29,7 @@ class ManagerConfigDialog(QtGui.QDialog):
     def do_dirSelect(self):
         start_path = str(self.registryPath.text())
         if not os.exists(start_path):
-            start_path = '.'
+            start_path = '..'
         dirname = str(QtGui.QFileDialog.getExistingDirectory(self, "Select Directory", directory=start_path))
         if dirname:
             self.registryPath.setText(dirname)

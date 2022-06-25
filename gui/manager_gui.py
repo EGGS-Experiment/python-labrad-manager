@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import sys
-import os
 #if __name__ == "__main__":
 #    if os.name == "posix":
 #        sys.path.insert(0, os.path.join(os.environ['HOME'], 'src/pylabrad-0.93.#1/'))
